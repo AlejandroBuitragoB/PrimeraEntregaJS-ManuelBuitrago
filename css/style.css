@@ -70,6 +70,7 @@ header {
 
 .carousel-inner {
     height: 700px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .carousel-item img {
@@ -77,7 +78,6 @@ header {
     height: 700px;
     object-fit: cover;
     object-position: top;
-
 }
 
 
@@ -614,21 +614,6 @@ p {
 }
 
 
-.S_1 {
-    position: relative;
-    display: inline-block;
-    text-align: center;
-}
-
-.S_1 h3 {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    color: white;
-    margin: 50px;
-    font-size: 60px;
-    text-shadow: 5px 5px 5px gray;
-}
 
 .sectionc_conta.S2 {
     background-color: rgb(24, 22, 22);
