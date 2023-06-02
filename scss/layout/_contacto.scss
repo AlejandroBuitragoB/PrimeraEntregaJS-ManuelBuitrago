@@ -1,0 +1,138 @@
+.sectionc {
+    border: 3px solid black;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(8, 400px);
+    grid-template-areas:
+        'area1 area2'
+        'area3 area3'
+        'area3 area3'
+        'area4 area4'
+        'area4 area4'
+        'area5 area6'
+        'area7 area7'
+        'area7 area7'
+
+    ;
+    gap: 120px 0px;
+    padding: 30px 15px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sectionc_conta {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    justify-content: center;
+    justify-items: center;
+    align-items: end;
+    color: black;
+    border-radius: 6px;
+    font-family: 'oxigeno';
+
+}
+
+.sectionc_conta h1,
+h2,
+p {
+    padding: 20px;
+}
+
+.sectionc_conta img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+
+}
+
+.sectionc_conta p {
+    font-size: 15px;
+}
+
+.sectionc_conta iframe {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+
+
+.sectionc_conta.S2 {
+    background-color: rgb(24, 22, 22);
+    color: white;
+    text-shadow: 5px 5px 5px gray;
+    padding: 30px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+.S_1 {
+    grid-area: area1;
+
+}
+
+.S2 {
+    grid-area: area2;
+}
+
+
+
+.S3 {
+    grid-area: area3;
+
+}
+
+.S4 {
+    grid-area: area4;
+}
+
+.S5 {
+    grid-area: area5;
+}
+
+.S6 {
+    grid-area: area6;
+}
+
+.S7 {
+    grid-area: area7;
+}
+
+.S8 {
+    grid-area: area8;
+}
+
+input,
+textarea {
+    box-shadow: 5px 2px rgb(38, 27, 49);
+    border-radius: 5px;
+    background-color: rgb(240, 229, 229);
+}
+
+input:hover,
+textarea:hover {
+    background-color: #3DE3D5;
+}
+
+.textarea {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.enviar {
+    text-align: right;
+    font-size: 20px;
+}
+
+.sectionc_conta.S2 {
+    display: flex;
+    gap: 10px;
+}

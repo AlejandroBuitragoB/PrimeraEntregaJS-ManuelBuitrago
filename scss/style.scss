@@ -1,0 +1,54 @@
+
+/*import resets*/
+@import 'base/variables';
+@import 'base/resets';
+
+/*import layout*/
+
+@import 'layout/index';
+
+@import 'layout/entrenamiento';
+
+@import 'layout/nutrición';
+
+@import 'layout/suplementación';
+
+@import 'layout/contacto';
+
+@import 'layout/mediaqueries';
+
+
+
+/*import components*/
+
+@import 'components/navbar';
+@import 'components/footer';
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'oxigeno';
+    src: url(../assets/Oxygen-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'bruno';
+    src: url(../assets/BrunoAce-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'pacifico';
+    src: url(../assets/Pacifico-Regular.ttf);
+}
+
+/*font-family: 'bruno';
+*/
+/*font-family: 'oxigeno'
+*/
+
