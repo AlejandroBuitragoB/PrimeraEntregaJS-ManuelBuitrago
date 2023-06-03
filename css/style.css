@@ -1,7 +1,27 @@
 /*import resets*/
-/*import layout*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "oxigeno";
+  src: url(../assets/Oxygen-Bold.ttf);
+}
+@font-face {
+  font-family: "bruno";
+  src: url(../assets/BrunoAce-Regular.ttf);
+}
+@font-face {
+  font-family: "pacifico";
+  src: url(../assets/Pacifico-Regular.ttf);
+}
+/*font-family: 'bruno';
+*/
+/*font-family: 'oxigeno'
+*/
 body {
-  background-color: #16c139;
+  background-color: #000000;
 }
 
 section {
@@ -20,6 +40,7 @@ h2 {
   font-size: 40px;
 }
 
+/*import layout*/
 header {
   background-color: black;
   color: black;
@@ -27,14 +48,6 @@ header {
   position: fixed;
   z-index: 16;
   width: 100%;
-}
-
-.nav-link {
-  font-size: 20px;
-  color: #3DE3D5;
-  font-weight: bold;
-  font-family: "bruno";
-  text-align: right;
 }
 
 .carousel-inner {
@@ -132,62 +145,9 @@ header {
 .sectioni_index.S7 img:hover {
   width: 140%;
   height: 140%;
+  transition: height 0.8s, width 1s;
 }
 
-/* MEDIAQUERIES INDEX*/
-@media only screen and (max-width: 1024px) {
-  .sectioni {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(10, 500px);
-    grid-template-areas: "area1" "area2" "area3" "area3" "area5" "area4" "area6" "area6" "area8" "area7";
-    gap: 120px 0;
-    padding: 30px 15px;
-    flex-direction: column;
-    align-items: center;
-  }
-  .sectioni_index p {
-    font-size: 15px;
-  }
-}
-@media only screen and (max-width: 505px) {
-  .sectioni {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(10, 600px);
-    grid-template-areas: "area1" "area2" "area3" "area3" "area5" "area4" "area6" "area6" "area8" "area7";
-    gap: 120px 0;
-    padding: 30px 15px;
-    flex-direction: column;
-    align-items: center;
-  }
-  .sectioni_index p {
-    font-size: 13px;
-  }
-  .links-footer-content ul li {
-    display: flex;
-    flex-direction: column;
-    color: #3DE3D5;
-  }
-}
-@media only screen and (min-width: 100px) and (max-width: 350px) {
-  .sectioni {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(10, 700px);
-    grid-template-areas: "area1" "area2" "area3" "area3" "area5" "area4" "area6" "area6" "area8" "area7";
-    gap: 120px 0;
-    padding: 30px 15px;
-    flex-direction: column;
-    align-items: center;
-  }
-  .sectioni_index h1 {
-    font-size: 30px;
-  }
-  .sectioni_index p {
-    font-size: 12px;
-  }
-}
 .sectione {
   border: 3px solid black;
   display: grid;
@@ -696,6 +656,14 @@ textarea:hover {
   }
 }
 /*import components*/
+.nav-link {
+  font-size: 20px;
+  color: #26aea3;
+  font-weight: bold;
+  font-family: "bruno";
+  text-align: right;
+}
+
 /*footer*/
 .links-footer {
   background-color: aliceblue;
@@ -714,27 +682,5 @@ textarea:hover {
 .links-footer-content ul li:hover, .links-footer a:hover {
   color: black;
 }
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-@font-face {
-  font-family: "oxigeno";
-  src: url(../assets/Oxygen-Bold.ttf);
-}
-@font-face {
-  font-family: "bruno";
-  src: url(../assets/BrunoAce-Regular.ttf);
-}
-@font-face {
-  font-family: "pacifico";
-  src: url(../assets/Pacifico-Regular.ttf);
-}
-/*font-family: 'bruno';
-*/
-/*font-family: 'oxigeno'
-*/
 
 /*# sourceMappingURL=style.css.map */

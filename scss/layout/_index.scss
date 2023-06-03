@@ -1,25 +1,3 @@
-body {
-    background-color: $main-color;
-}
-
-section {
-    font-family: 'oxigeno';
-}
-
-a {
-    text-decoration: none;
-}
-
-h1 {
-    font-size: 50px;
-}
-
-h2 {
-    font-size: 40px;
-}
-
-
-
 
 header {
     background-color: black;
@@ -30,16 +8,6 @@ header {
     width: 100%;
 }
 
-
-
-.nav-link {
-    font-size: 20px;
-    color: #3DE3D5;
-    font-weight: bold;
-    font-family: 'bruno';
-    text-align: right;
-
-}
 
 
 
@@ -167,118 +135,5 @@ header {
 .sectioni_index.S7 img:hover {
     width: 140%;
     height: 140%;
-}
-
-
-
-
-
-
-/* MEDIAQUERIES INDEX*/
-
-@media only screen and (max-width:1024px) {
-
-    .sectioni {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(10, 500px);
-        grid-template-areas:
-            'area1'
-            'area2'
-            'area3'
-            'area3'
-            'area5'
-            'area4'
-            'area6'
-            'area6'
-            'area8'
-            'area7'
-        ;
-        gap: 120px 0;
-        padding: 30px 15px;
-        flex-direction: column;
-        align-items: center;
-    }
-
-
-
-    .sectioni_index p {
-        font-size: 15px;
-    }
-
-}
-
-
-@media only screen and (max-width:505px) {
-
-    .sectioni {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(10, 600px);
-        grid-template-areas:
-            'area1'
-            'area2'
-            'area3'
-            'area3'
-            'area5'
-            'area4'
-            'area6'
-            'area6'
-            'area8'
-            'area7'
-        ;
-        gap: 120px 0;
-        padding: 30px 15px;
-        flex-direction: column;
-        align-items: center;
-    }
-
-
-    .sectioni_index p {
-        font-size: 13px;
-    }
-
-
-    .links-footer-content ul li {
-        display: flex;
-        flex-direction: column;
-        color: #3DE3D5;
-    }
-}
-
-
-@media only screen and (min-width:100px) and (max-width:350px) {
-
-    .sectioni {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(10, 700px);
-        grid-template-areas:
-            'area1'
-            'area2'
-            'area3'
-            'area3'
-            'area5'
-            'area4'
-            'area6'
-            'area6'
-            'area8'
-            'area7'
-        ;
-        gap: 120px 0;
-        padding: 30px 15px;
-        flex-direction: column;
-        align-items: center;
-    }
-
-
-    .sectioni_index h1 {
-        font-size: 30px;
-    }
-
-    .sectioni_index p {
-        font-size: 12px;
-    }
-
-
+    transition: height 0.8s, width 1s;
 }
