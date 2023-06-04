@@ -18,204 +18,86 @@
     padding: 30px 15px;
     flex-direction: column;
     align-items: center;
-}
 
-.sectione_entre {
-    width: 100%;
-    height: 100%;
-    background-color: white;
-    justify-content: center;
-    justify-items: center;
-    align-items: end;
-    color: black;
-    border-radius: 6px;
-    font-family: 'oxigeno';
-
-}
-
-.sectione_entre h1,
-h2,
-p {
-    padding: 20px;
-}
-
-.sectione_entre img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 6px;
-}
-
-.sectione_entre p {
-    font-size: 15px;
-}
-
-.sectione_entre iframe {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 6px;
-}
-
-
-
-.S1 {
-    grid-area: area1;
-
-}
-
-.S2 {
-    grid-area: area2;
-}
-
-.S3 {
-    grid-area: area3;
-
-}
-
-.S4 {
-    grid-area: area4;
-}
-
-.S5 {
-    grid-area: area5;
-}
-
-.S6 {
-    grid-area: area6;
-}
-
-.S7 {
-    grid-area: area7;
-
-}
-
-.S8 {
-    grid-area: area8;
-}
-
-.S9 {
-    grid-area: area9;
-}
-
-.S10 {
-    grid-area: area10;
-}
-
-.S11 {
-    grid-area: area11;
-}
-
-.S12 {
-    grid-area: area12;
-}
-
-
-/* MEDIAQUERIES ENTRENAMIENTO*/
-
-@media only screen and (max-width:1024px) {
-
-    .sectione {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(12, 500px);
-        grid-template-areas:
-            'area1'
-            'area2'
-            'area3'
-            'area5'
-            'area4'
-            'area6'
-            'area7'
-            'area8'
-            'area10'
-            'area9'
-            'area11'
-            'area12'
-        ;
-        gap: 120px 0;
-        padding: 30px 15px;
-        flex-direction: column;
-        align-items: center;
+    &_entre {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        justify-content: center;
+        justify-items: center;
+        align-items: end;
+        color: black;
+        border-radius: 6px;
+        font-family: 'oxigeno';
     }
 
+    h1, h2, p{
+        padding: 20px;
+    }
 
-
-    .sectione_entre p {
+    p {
         font-size: 15px;
     }
 
-}
-
-
-@media only screen and (max-width:505px) {
-
-    .sectione {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(12, 600px);
-        grid-template-areas:
-            'area1'
-            'area2'
-            'area3'
-            'area5'
-            'area4'
-            'area6'
-            'area7'
-            'area8'
-            'area10'
-            'area9'
-            'area11'
-            'area12'
-        ;
-        gap: 120px 0;
-        padding: 30px 15px;
-        flex-direction: column;
-        align-items: center;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 6px;
     }
 
-
-    .sectione_entre p {
-        font-size: 13px;
+    iframe {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 6px;
     }
 
-}
-
-
-@media only screen and (min-width:100px) and (max-width:350px) {
-
-    .sectione {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(12, 700px);
-        grid-template-areas:
-            'area1'
-            'area2'
-            'area3'
-            'area5'
-            'area4'
-            'area6'
-            'area7'
-            'area8'
-            'area10'
-            'area9'
-            'area11'
-            'area12'
-        ;
-        gap: 120px 0;
-        padding: 30px 15px;
-        flex-direction: column;
-        align-items: center;
+    .S1 {
+        grid-area: area1;
     }
-
-
-    .sectione_entre h2 {
-        font-size: 30px;
+    
+    .S2 {
+        grid-area: area2;
     }
-
-    .sectione_entre p {
-        font-size: 12px;
+    
+    .S3 {
+        grid-area: area3;
     }
-
-
+    
+    .S4 {
+        grid-area: area4;
+    }
+    
+    .S5 {
+        grid-area: area5;
+    }
+    
+    .S6 {
+        grid-area: area6;
+    }
+    
+    .S7 {
+        grid-area: area7;
+    }
+    
+    .S8 {
+        grid-area: area8;
+    }
+    
+    .S9 {
+        grid-area: area9;
+    }
+    
+    .S10 {
+        grid-area: area10;
+    }
+    
+    .S11 {
+        grid-area: area11;
+    }
+    
+    .S12 {
+        grid-area: area12;
+    }
 }

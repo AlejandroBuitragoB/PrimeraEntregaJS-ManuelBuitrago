@@ -18,9 +18,8 @@
     padding: 30px 15px;
     flex-direction: column;
     align-items: center;
-}
 
-.sectionc_conta {
+    &_conta {
     width: 100%;
     height: 100%;
     background-color: white;
@@ -30,16 +29,17 @@
     color: black;
     border-radius: 6px;
     font-family: 'oxigeno';
-
 }
 
-.sectionc_conta h1,
-h2,
-p {
-    padding: 20px;
-}
+        h1, h2, p{
+            padding: 20px;
+        }
 
-.sectionc_conta img {
+        p {
+            font-size: 15px;
+        }
+
+        img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -47,46 +47,35 @@ p {
 
 }
 
-.sectionc_conta p {
-    font-size: 15px;
-}
-
-.sectionc_conta iframe {
+iframe {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 6px;
 }
 
+.S_1 {
+    grid-area: area1;
+}
 
+.S2 {
+    grid-area: area2;
 
-.sectionc_conta.S2 {
+    &.S2 {
     background-color: rgb(24, 22, 22);
     color: white;
     text-shadow: 5px 5px 5px gray;
     padding: 30px;
     font-size: 15px;
+    display: flex;
+    gap: 10px;
 }
-
-
-
-
-
-
-.S_1 {
-    grid-area: area1;
-
-}
-
-.S2 {
-    grid-area: area2;
 }
 
 
 
 .S3 {
     grid-area: area3;
-
 }
 
 .S4 {
@@ -108,31 +97,31 @@ p {
 .S8 {
     grid-area: area8;
 }
+}
+
 
 input,
 textarea {
     box-shadow: 5px 2px rgb(38, 27, 49);
     border-radius: 5px;
     background-color: rgb(240, 229, 229);
-}
 
-input:hover,
+    &:hover,
 textarea:hover {
-    background-color: #3DE3D5;
+    background-color: #26aea3;
 }
 
-.textarea {
+textarea {
     display: flex;
     justify-content: left;
     align-items: center;
 }
+}
+
 
 .enviar {
     text-align: right;
     font-size: 20px;
 }
 
-.sectionc_conta.S2 {
-    display: flex;
-    gap: 10px;
-}
+
