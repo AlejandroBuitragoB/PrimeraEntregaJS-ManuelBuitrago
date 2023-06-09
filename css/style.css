@@ -564,7 +564,7 @@ textarea textarea {
     font-size: 20px;
   }
 }
-@media only screen and (min-width: 100px) and (max-width: 350px) {
+@media only screen and (min-width: 100px) and (max-width: 360px) {
   .sectioni {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -659,7 +659,7 @@ textarea textarea {
     color: #135953;
   }
 }
-@media only screen and (min-width: 100px) and (max-width: 350px) {
+@media only screen and (min-width: 100px) and (max-width: 360px) {
   .sectione {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -726,7 +726,7 @@ textarea textarea {
     color: #135953;
   }
 }
-@media only screen and (min-width: 100px) and (max-width: 350px) {
+@media only screen and (min-width: 100px) and (max-width: 360px) {
   .sectionn {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -793,7 +793,7 @@ textarea textarea {
     color: #135953;
   }
 }
-@media only screen and (min-width: 100px) and (max-width: 350px) {
+@media only screen and (min-width: 100px) and (max-width: 360px) {
   .sections {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -860,7 +860,7 @@ textarea textarea {
     color: #135953;
   }
 }
-@media only screen and (min-width: 100px) and (max-width: 350px) {
+@media only screen and (min-width: 100px) and (max-width: 360px) {
   .sectionc {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
