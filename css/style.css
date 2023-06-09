@@ -58,7 +58,7 @@ header {
 }
 
 .carousel-inner {
-  height: 600px;
+  height: 80vh;
 }
 .carousel-inner img {
   width: 100%;
@@ -73,7 +73,7 @@ header {
   border-radius: 100%;
   object-fit: cover;
   position: fixed;
-  bottom: 15px;
+  bottom: 60px;
   right: 15px;
   z-index: 1;
 }
@@ -127,7 +127,9 @@ header {
   font-family: "oxigeno";
   overflow: hidden;
 }
-.sectioni h1, .sectioni h2, .sectioni p {
+.sectioni h1,
+.sectioni h2,
+.sectioni p {
   padding: 20px;
 }
 .sectioni p {
@@ -180,7 +182,7 @@ header {
   border: 3px solid black;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(9, 400px);
+  grid-template-rows: repeat(9, 460px);
   grid-template-areas: "area1 area2" "area3 area3" "area3 area3" "area4 area5" "area6 area6" "area6 area6" "area7 area8" "area9 area10" "area11 area12";
   gap: 120px 0px;
   padding: 30px 15px;
@@ -257,7 +259,7 @@ header {
   border: 3px solid black;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(9, 400px);
+  grid-template-rows: repeat(9, 460px);
   grid-template-areas: "area1 area2" "area3 area3" "area3 area3" "area4 area5" "area6 area6" "area6 area6" "area7 area8" "area10 area9" "area11 area12";
   gap: 120px 0px;
   padding: 30px 15px;
@@ -334,7 +336,7 @@ header {
   border: 3px solid black;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(9, 400px);
+  grid-template-rows: repeat(9, 460px);
   grid-template-areas: "area1 area2" "area3 area3" "area3 area3" "area4 area5" "area6 area6" "area6 area6" "area8 area7" "area10 area9" "area11 area12";
   gap: 120px 0px;
   padding: 30px 15px;
@@ -592,6 +594,21 @@ textarea textarea {
   }
   .hero p {
     font-size: 12px;
+  }
+  .wsp img {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    object-fit: cover;
+    position: fixed;
+    bottom: 30px;
+    right: 10px;
+    z-index: 1;
+  }
+  .wsp img:hover {
+    width: 60px;
+    height: 60px;
+    transition: 0.8s;
   }
 }
 /* MEDIAQUERIES ENTRENAMIENTO*/
