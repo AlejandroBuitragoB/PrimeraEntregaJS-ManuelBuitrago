@@ -47,7 +47,7 @@
     .sectioni {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(10, 600px);
+        grid-template-rows: repeat(10, 650px);
         grid-template-areas:
             'area1'
             'area2'
@@ -96,15 +96,13 @@
     .sectioni {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(10, 700px);
+        grid-template-rows: repeat(8, 700px);
         grid-template-areas:
             'area1'
             'area2'
             'area3'
-            'area3'
             'area5'
             'area4'
-            'area6'
             'area6'
             'area8'
             'area7'
@@ -120,6 +118,21 @@
 
         p {
             font-size: 12px;
+        }
+
+        iframe{
+            height: 360px;
+            width: 100%;
+        }
+
+        .S2{
+            height: 360px;
+            width: 100%;
+        }
+
+        .S4{
+            height: 360px;
+            width: 100%;
         }
     }
 
@@ -265,6 +278,17 @@
         p {
             font-size: 12px;
         }
+
+        iframe{
+            height: 360px;
+            width: 100%;
+        }
+
+        .S4{
+            height: 360px;
+            width: 100%;
+        }
+
     }
 
     .links-footer-content ul li a {
@@ -274,22 +298,6 @@
     }
 }
 
-// .wsp img {
-//     width: 50px;
-//     height: 50px;
-//     border-radius: 100%;
-//     object-fit: cover;
-//     position: fixed;
-//     bottom: 15px;
-//     right: 15px;
-//     z-index: 1;
-
-//     &:hover {
-//         width: 60px;
-//         height: 60px;
-//         transition: 0.8s;
-//     }
-// }
 
 /* MEDIAQUERIES NUTRICIÓN*/
 
@@ -402,24 +410,18 @@
         flex-direction: column;
         color: #135953;
     }
+
+    iframe{
+        height: 360px;
+        width: 100%;
+    }
+
+    .S4{
+        height: 360px;
+        width: 100%;
+    }
 }
 
-// .wsp img {
-//     width: 50px;
-//     height: 50px;
-//     border-radius: 100%;
-//     object-fit: cover;
-//     position: fixed;
-//     bottom: 15px;
-//     right: 15px;
-//     z-index: 1;
-
-//     &:hover {
-//         width: 60px;
-//         height: 60px;
-//         transition: 0.8s;
-//     }
-// }
 
 /* MEDIAQUERIES SUPLEMENTACIÓN*/
 
@@ -532,24 +534,18 @@
         flex-direction: column;
         color: #135953;
     }
+
+    iframe{
+        height: 360px;
+        width: 100%;
+    }
+
+    .S4{
+        height: 360px;
+        width: 100%;
+    }
 }
 
-// .wsp img {
-//     width: 50px;
-//     height: 50px;
-//     border-radius: 100%;
-//     object-fit: cover;
-//     position: fixed;
-//     bottom: 15px;
-//     right: 15px;
-//     z-index: 1;
-
-//     &:hover {
-//         width: 60px;
-//         height: 60px;
-//         transition: 0.8s;
-//     }
-// }
 
 /* MEDIAQUERIES CONTACTO*/
 
@@ -648,20 +644,3 @@
         color: #135953;
     }
 }
-
-// .wsp img {
-//     width: 50px;
-//     height: 50px;
-//     border-radius: 100%;
-//     object-fit: cover;
-//     position: fixed;
-//     bottom: 15px;
-//     right: 15px;
-//     z-index: 1;
-
-//     &:hover {
-//         width: 60px;
-//         height: 60px;
-//         transition: 0.8s;
-//     }
-// }

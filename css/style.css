@@ -539,7 +539,7 @@ textarea textarea {
   .sectioni {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(10, 600px);
+    grid-template-rows: repeat(10, 650px);
     grid-template-areas: "area1" "area2" "area3" "area3" "area5" "area4" "area6" "area6" "area8" "area7";
     gap: 120px 0;
     padding: 30px 15px;
@@ -568,8 +568,8 @@ textarea textarea {
   .sectioni {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(10, 700px);
-    grid-template-areas: "area1" "area2" "area3" "area3" "area5" "area4" "area6" "area6" "area8" "area7";
+    grid-template-rows: repeat(8, 700px);
+    grid-template-areas: "area1" "area2" "area3" "area5" "area4" "area6" "area8" "area7";
     gap: 120px 0;
     padding: 30px 15px;
     flex-direction: column;
@@ -580,6 +580,18 @@ textarea textarea {
   }
   .sectioni p {
     font-size: 12px;
+  }
+  .sectioni iframe {
+    height: 360px;
+    width: 100%;
+  }
+  .sectioni .S2 {
+    height: 360px;
+    width: 100%;
+  }
+  .sectioni .S4 {
+    height: 360px;
+    width: 100%;
   }
   .links-footer-content ul li a {
     display: flex;
@@ -664,6 +676,14 @@ textarea textarea {
   .sectione p {
     font-size: 12px;
   }
+  .sectione iframe {
+    height: 360px;
+    width: 100%;
+  }
+  .sectione .S4 {
+    height: 360px;
+    width: 100%;
+  }
   .links-footer-content ul li a {
     display: flex;
     flex-direction: column;
@@ -728,6 +748,14 @@ textarea textarea {
     flex-direction: column;
     color: #135953;
   }
+  iframe {
+    height: 360px;
+    width: 100%;
+  }
+  .S4 {
+    height: 360px;
+    width: 100%;
+  }
 }
 /* MEDIAQUERIES SUPLEMENTACIÓN*/
 @media only screen and (max-width: 1024px) {
@@ -786,6 +814,14 @@ textarea textarea {
     display: flex;
     flex-direction: column;
     color: #135953;
+  }
+  iframe {
+    height: 360px;
+    width: 100%;
+  }
+  .S4 {
+    height: 360px;
+    width: 100%;
   }
 }
 /* MEDIAQUERIES CONTACTO*/
