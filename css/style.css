@@ -523,7 +523,7 @@ textarea textarea {
     align-items: center;
   }
   .sectioni p {
-    font-size: 15px;
+    font-size: 20px;
   }
   .hero {
     padding: 10px;
@@ -532,54 +532,18 @@ textarea textarea {
     padding: 20px;
   }
   .hero p {
-    font-size: 30px;
+    font-size: 32px;
   }
 }
-@media only screen and (max-width: 505px) {
+@media only screen and (max-width: 750px) {
   .sectioni {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(10, 650px);
-    grid-template-areas: "area1" "area2" "area3" "area3" "area5" "area4" "area6" "area6" "area8" "area7";
-    gap: 120px 0;
-    padding: 30px 15px;
-    flex-direction: column;
-    align-items: center;
-  }
-  .sectioni p {
-    font-size: 13px;
-  }
-  .links-footer-content ul li a {
-    display: flex;
-    flex-direction: column;
-    color: #135953;
-  }
-  .hero {
-    padding: 10px;
-  }
-  .hero_content {
-    padding: 15px;
-  }
-  .hero p {
-    font-size: 20px;
-  }
-}
-@media only screen and (min-width: 100px) and (max-width: 360px) {
-  .sectioni {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(8, 700px);
+    grid-template-rows: repeat(8, 750px);
     grid-template-areas: "area1" "area2" "area3" "area5" "area4" "area6" "area8" "area7";
-    gap: 120px 0;
-    padding: 30px 15px;
-    flex-direction: column;
-    align-items: center;
-  }
-  .sectioni h1 {
-    font-size: 30px;
   }
   .sectioni p {
-    font-size: 12px;
+    font-size: 20px;
   }
   .sectioni iframe {
     height: 360px;
@@ -593,6 +557,29 @@ textarea textarea {
     height: 360px;
     width: 100%;
   }
+  .hero {
+    padding: 10px;
+  }
+  .hero_content {
+    padding: 15px;
+  }
+  .hero p {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 580px) {
+  .sectioni {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(8, 700px);
+    grid-template-areas: "area1" "area2" "area3" "area5" "area4" "area6" "area8" "area7";
+  }
+  .sectioni h1 {
+    font-size: 30px;
+  }
+  .sectioni p {
+    font-size: 18px;
+  }
   .links-footer-content ul li a {
     display: flex;
     flex-direction: column;
@@ -605,7 +592,7 @@ textarea textarea {
     padding: 10px;
   }
   .hero p {
-    font-size: 12px;
+    font-size: 25px;
   }
   .wsp img {
     width: 30px;
@@ -623,6 +610,40 @@ textarea textarea {
     transition: 0.8s;
   }
 }
+@media only screen and (max-width: 480px) {
+  .sectioni h1 {
+    font-size: 30px;
+  }
+  .sectioni p {
+    font-size: 15px;
+  }
+  .hero {
+    padding: 5px;
+  }
+  .hero_content {
+    padding: 10px;
+  }
+  .hero p {
+    font-size: 21px;
+  }
+}
+@media only screen and (min-width: 100px) and (max-width: 360px) {
+  .sectioni h1 {
+    font-size: 30px;
+  }
+  .sectioni p {
+    font-size: 12px;
+  }
+  .hero {
+    padding: 5px;
+  }
+  .hero_content {
+    padding: 10px;
+  }
+  .hero p {
+    font-size: 20px;
+  }
+}
 /* MEDIAQUERIES ENTRENAMIENTO*/
 @media only screen and (max-width: 1024px) {
   .sectione {
@@ -636,7 +657,32 @@ textarea textarea {
     align-items: center;
   }
   .sectione p {
-    font-size: 15px;
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .sectione p {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .sectione p {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .sectione p {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .sectione iframe {
+    height: 360px;
+    width: 100%;
+  }
+  .sectione .S4 {
+    height: 360px;
+    width: 100%;
   }
 }
 @media only screen and (max-width: 505px) {
@@ -645,36 +691,9 @@ textarea textarea {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(12, 600px);
     grid-template-areas: "area1" "area2" "area3" "area5" "area4" "area6" "area7" "area8" "area10" "area9" "area11" "area12";
-    gap: 120px 0;
-    padding: 30px 15px;
-    flex-direction: column;
-    align-items: center;
   }
   .sectione p {
     font-size: 13px;
-  }
-  .links-footer-content ul li a {
-    display: flex;
-    flex-direction: column;
-    color: #135953;
-  }
-}
-@media only screen and (min-width: 100px) and (max-width: 360px) {
-  .sectione {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(12, 700px);
-    grid-template-areas: "area1" "area2" "area3" "area5" "area4" "area6" "area7" "area8" "area10" "area9" "area11" "area12";
-    gap: 120px 0;
-    padding: 30px 15px;
-    flex-direction: column;
-    align-items: center;
-  }
-  .sectione h2 {
-    font-size: 30px;
-  }
-  .sectione p {
-    font-size: 12px;
   }
   .sectione iframe {
     height: 360px;
@@ -690,6 +709,28 @@ textarea textarea {
     color: #135953;
   }
 }
+@media only screen and (min-width: 100px) and (max-width: 360px) {
+  .sectione {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(12, 700px);
+    grid-template-areas: "area1" "area2" "area3" "area5" "area4" "area6" "area7" "area8" "area10" "area9" "area11" "area12";
+  }
+  .sectione h2 {
+    font-size: 30px;
+  }
+  .sectione p {
+    font-size: 13px;
+  }
+  .sectione iframe {
+    height: 360px;
+    width: 100%;
+  }
+  .sectione .S4 {
+    height: 360px;
+    width: 100%;
+  }
+}
 /* MEDIAQUERIES NUTRICIÓN*/
 @media only screen and (max-width: 1024px) {
   .sectionn {
@@ -703,7 +744,32 @@ textarea textarea {
     align-items: center;
   }
   .sectionn p {
-    font-size: 15px;
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .sectionn p {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .sectionn p {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .sectionn p {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .sectionn iframe {
+    height: 360px;
+    width: 100%;
+  }
+  .sectionn .S4 {
+    height: 360px;
+    width: 100%;
   }
 }
 @media only screen and (max-width: 505px) {
@@ -712,13 +778,17 @@ textarea textarea {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(12, 600px);
     grid-template-areas: "area1" "area2" "area3" "area5" "area4" "area6" "area7" "area8" "area10" "area9" "area11" "area12";
-    gap: 120px 0;
-    padding: 30px 15px;
-    flex-direction: column;
-    align-items: center;
   }
   .sectionn p {
     font-size: 13px;
+  }
+  .sectionn iframe {
+    height: 320px;
+    width: 100%;
+  }
+  .sectionn .S4 {
+    height: 320px;
+    width: 100%;
   }
   .links-footer-content ul li a {
     display: flex;
@@ -732,21 +802,12 @@ textarea textarea {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(12, 700px);
     grid-template-areas: "area1" "area2" "area3" "area5" "area4" "area6" "area7" "area8" "area10" "area9" "area11" "area12";
-    gap: 120px 0;
-    padding: 30px 15px;
-    flex-direction: column;
-    align-items: center;
   }
   .sectionn h2 {
     font-size: 30px;
   }
   .sectionn p {
-    font-size: 12px;
-  }
-  .links-footer-content ul li a {
-    display: flex;
-    flex-direction: column;
-    color: #135953;
+    font-size: 13px;
   }
   iframe {
     height: 360px;
@@ -770,7 +831,32 @@ textarea textarea {
     align-items: center;
   }
   .sections p {
-    font-size: 15px;
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .sections p {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .sections p {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .sections p {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .sections iframe {
+    height: 360px;
+    width: 100%;
+  }
+  .sections .S4 {
+    height: 360px;
+    width: 100%;
   }
 }
 @media only screen and (max-width: 505px) {
@@ -779,10 +865,6 @@ textarea textarea {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(12, 600px);
     grid-template-areas: "area1" "area2" "area3" "area5" "area4" "area6" "area7" "area8" "area10" "area9" "area11" "area12";
-    gap: 120px 0;
-    padding: 30px 15px;
-    flex-direction: column;
-    align-items: center;
   }
   .sections p {
     font-size: 13px;
@@ -799,21 +881,12 @@ textarea textarea {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(12, 700px);
     grid-template-areas: "area1" "area2" "area3" "area5" "area4" "area6" "area7" "area8" "area10" "area9" "area11" "area12";
-    gap: 120px 0;
-    padding: 30px 15px;
-    flex-direction: column;
-    align-items: center;
   }
   .sections h2 {
     font-size: 30px;
   }
   .sections p {
-    font-size: 12px;
-  }
-  .links-footer-content ul li a {
-    display: flex;
-    flex-direction: column;
-    color: #135953;
+    font-size: 13px;
   }
   iframe {
     height: 360px;
@@ -846,30 +919,17 @@ textarea textarea {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(7, 600px);
     grid-template-areas: "area1" "area2" "area3" "area4" "area6" "area5" "area7";
-    gap: 120px 0;
-    padding: 30px 15px;
-    flex-direction: column;
-    align-items: center;
   }
   .sectionc p {
     font-size: 18px;
-  }
-  .links-footer-content ul li a {
-    display: flex;
-    flex-direction: column;
-    color: #135953;
   }
 }
 @media only screen and (min-width: 100px) and (max-width: 360px) {
   .sectionc {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(7, 600px 500px);
+    grid-template-rows: repeat(7, 700px);
     grid-template-areas: "area1" "area2" "area3" "area4" "area6" "area5" "area7";
-    gap: 120px 0;
-    padding: 30px 15px;
-    flex-direction: column;
-    align-items: center;
   }
   .sectionc h2 {
     font-size: 32px;
@@ -877,10 +937,9 @@ textarea textarea {
   .sectionc p {
     font-size: 22px;
   }
-  .links-footer-content ul li a {
-    display: flex;
-    flex-direction: column;
-    color: #135953;
+  .sectionc .S_1 {
+    width: 100%;
+    height: 500px;
   }
 }
 /*import components*/
