@@ -465,6 +465,8 @@ header {
   padding: 30px;
   font-size: 15px;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   gap: 10px;
 }
 .sectionc .S3 {
