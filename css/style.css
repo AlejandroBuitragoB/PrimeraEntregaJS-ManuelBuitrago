@@ -465,6 +465,9 @@ header {
   padding: 30px;
   font-size: 15px;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   gap: 10px;
 }
 .sectionc .S3 {
@@ -486,6 +489,15 @@ header {
   grid-area: area8;
 }
 
+form {
+  padding: 50px 55px;
+  text-align: left;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 input,
 textarea {
   box-shadow: 5px 2px rgb(38, 27, 49);
@@ -497,12 +509,6 @@ input textarea:hover,
 textarea:hover,
 textarea textarea:hover {
   background-color: #135953;
-}
-input textarea,
-textarea textarea {
-  display: flex;
-  justify-content: left;
-  align-items: center;
 }
 
 .enviar {

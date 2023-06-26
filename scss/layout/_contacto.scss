@@ -69,6 +69,9 @@ iframe {
     padding: 30px;
     font-size: 15px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     gap: 10px;
 }
 }
@@ -98,6 +101,14 @@ iframe {
 }
 }
 
+form{
+    padding: 50px 55px;
+    text-align: left;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 
 input,
 textarea {
@@ -109,14 +120,7 @@ textarea {
 textarea:hover {
     background-color: #135953;
 }
-
-textarea {
-    display: flex;
-    justify-content: left;
-    align-items: center;
 }
-}
-
 
 .enviar {
     text-align: right;
