@@ -32,9 +32,9 @@ if (proteinanecesaria < 70) {
 
 /*interfaz para saber si el cliente puede y desea navegar solo a través de la tienda online o si necesita o desea ayuda según su nivel de experiencia*/
 
-let respuesta = prompt("¿Estás listo para empezar?");
+let respuesta = prompt("¿Estás listo para empezar?").toLowerCase();
 
-while (respuesta === "") {
+while (respuesta != "si") {
     alert("¡animos!");
     respuesta = prompt("¿Estás listo para empezar?");
 }
