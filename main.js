@@ -1,4 +1,4 @@
-/*Interfaz de bienvenida al portal personalziada */
+/*Interfaz de bienvenida al portal personalizada */
 let nombre = prompt("Ingrese su nombre");
 let apellido = prompt("Ingrese su apellido");
 if (nombre != "" && apellido != "") {
@@ -65,3 +65,30 @@ while (meta != "SALIR") {
 
     meta = prompt(`Entonces ${nombre}, ¿cuál es tu nivel de fitness: bajo, medio o alto?`);
 }
+
+
+class Producto {
+    constructor(nombrep, precio, imagen) {
+        this.nombrep = nombrep;
+        this.precio = precio;
+        this.imagen = imagen;
+        this.vendido = false;
+    }
+
+    vender() {
+        this.vendido = true;
+    }
+}
+
+const producto1 = new Producto("proteina1", 22.000, "insertar url de foto de preotina");
+const producto2 = new Producto("proteina2", 19.000, "insertar url de foto de preotina");
+const producto3 = new Producto("proteina3", 18.000, "insertar url de foto de preotina");
+const producto4 = new Producto("proteina4", 17.000, "insertar url de foto de preotina");
+const producto5 = new Producto("creatina1", 25.000, "insertar url de foto de creatina");
+const producto6 = new Producto("creatina2", 26.000, "insertar url de foto de creatina");
+const producto7 = new Producto("barrasp1", 21.000, "insertar url de foto de barras");
+const producto8 = new Producto("barrasp2", 21.000, "insertar url de foto de barras");
+const producto9 = new Producto("barrasp3", 21.000, "insertar url de foto de barras");
+const producto10 = new Producto("barrasp4", 21.000, "insertar url de foto de barras");
+
+console.log(producto1);
