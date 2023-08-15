@@ -120,7 +120,7 @@ productos.push(new Producto("barras", 6000));
 productos.push(new Producto("barras", 4000));
 
 
-let nombrep = prompt("Ingrese el nombre del producto a consultar");
+let nombrep = prompt("Ingrese el nombre del producto a consultar").toLowerCase();
 
 while (nombrep != "SALIR") {
     let producto;
@@ -145,7 +145,7 @@ while (nombrep != "SALIR") {
     nombrep = prompt("Ingrese el nombre del producto a consultar. Escriba SALIR para busqueda manual");
 }
 
-let precio = parseInt(prompt("Ingrese el precio minimo"));
+let precio = parseInt(prompt("Ingrese el precio minimo (sin puntos, comas ni signos)"));
 let filtrados = productos.filter((item) => item.precio > precio);
 
 filtrados.forEach(item => {
