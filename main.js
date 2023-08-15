@@ -1,4 +1,6 @@
-/*Interfaz de bienvenida al portal personalizada. El usario podrá optar por una atención "guiada" al hacer click en el botón "empecemos" */
+/*Interfaz de bienvenida al portal personalizada. El usario podrá optar por una atención "guiada" 
+al hacer click en el botón "empecemos" */
+
 let boton = document.getElementById("boton");
 boton.addEventListener("click", () => {
 
@@ -90,6 +92,8 @@ class Producto {
         }
     }
 }
+
+/*arreglos para busqueda y filtrado de productos*/
 
 const producto1 = new Producto("proteina1", 22000, "insertar url de foto de proteina", 5);
 const producto2 = new Producto("proteina2", 19000, "insertar url de foto de proteina", 5);
